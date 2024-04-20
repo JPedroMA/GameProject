@@ -2,12 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sprite Animations</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <canvas id="canvas1"></canvas>
+    <div class="controls">
+        <label for="animations">Escolher animação</label>
+        <select name="Animations" id="animations">
+           <option value="parado">Parado</option> 
+           <option value="pulando">Pulando</option>
+           <option value="caindo">Caindo</option>
+           <option value="correndo">Correndo</option>
+           <option value="atordoado">Atordoado</option>
+           <option value="sentar">Sentar</option>
+           <option value="rolar">Rolar</option>
+           <option value="morder">Morder</option>
+           <option value="ko">K.O.</option>
+           <option value="atacado">Atacado</option>
+        </select>
+    </div>
 
     <script src="script.js"></script>
 </body>
